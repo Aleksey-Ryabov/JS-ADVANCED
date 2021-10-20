@@ -62,3 +62,17 @@ button {
 h1{
     text-align: center;
 }
+
+.cart-icon {
+    width: 50px;
+}
+
+.header-products {
+    position: relative;
+}
+
+.cart-element {
+    position: absolute;
+    top: 15px;
+    right: 700px;
+}
