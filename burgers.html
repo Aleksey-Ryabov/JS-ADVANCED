@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="burgers.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="burgers container">
+        <div class='burger_product'>
+            <img class="burgers_img" src="img/mini.jpg" alt="">
+            <div class="burger_product_head">Mini burger</div>
+            <div class="burger_product_price">20$</div>
+            <div class="burger_product_calories">300 калорий</div>
+            <button class='burger_product_button' data-name="small">Добавить в корзину</button>
+            <form class="burger_form_topping">Выберете топпинг:<br>
+                <label><input type="radio" name="cheese" id="mini" value="TOPPINGS"> Сыр</label>
+                <label><input type="radio" name="bacon" id="mini" value="TOPPINGS"> Бекон</label>
+                <label><input type="radio" name="salad" id="mini" value="TOPPINGS"> Салатный лист</label>
+            </form>
+            <form class="burger_product_souce">Можно полить соусом:<br>
+                <label><input type="radio" name="Souces" id="mini" value="SOUCES">Майонез</label>
+                <label><input type="radio" name="Souces" id="mini" value="SOUCES">Кетчуп</label>
+                <label><input type="radio" name="Souces" id="mini" value="SOUCES">Горчица</label>
+            </form>
+            <div>Итого калорий: <span class="burgers_calories"></span>ккал</div>
+            <div>Итого цена: <span class="burgers_price"></span>$</div>
+        </div>
+        <div class='burger_product'>
+            <img class="burgers_img" src="img/middle.jpg" alt="">
+            <div class="burger_product_head">Middle burger</div>
+            <div class="burger_product_price">30$</div>
+            <div class="burger_product_calories">400 калорий</div>
+            <button class='burger_product_button' data-name="middle">Добавить в корзину</button>
+            <form class="burger_form_topping">Выберете топпинг:<br>
+                <label><input type="radio" name="cheese" id="middle" value="TOPPINGS"> Сыр</label>
+                <label><input type="radio" name="bacon" id="middle" value="TOPPINGS"> Бекон</label>
+                <label><input type="radio" name="salad" id="middle" value="TOPPINGS"> Салатный лист</label>ккал
+            </form>
+            <form class="burger_product_souce">Можно полить соусом:<br>
+                <label><input type="radio" name="Souces" id="middle" value="SOUCES">Майонез</label>
+                <label><input type="radio" name="Souces" id="middle" value="SOUCES">Кетчуп</label>
+                <label><input type="radio" name="Souces" id="middle" value="SOUCES">Горчица</label>
+            </form>
+            <div>Итого калорий: <span class="burgers_calories"></span>ккал</div>
+            <div>Итого цена: <span class="burgers_price"></span>$</div>
+        </div>
+        <div class='burger_product'>
+            <img class="burgers_img" src="img/big.jpg" alt="">
+            <div class="burger_product_head">Big burger</div>
+            <div class="burger_product_price">50$</div>
+            <div class="burger_product_calories">600 калорий</div>
+            <div class="burger_product_price">
+            <button class='burger_product_button' data-name="big">Добавить в корзину</button>
+            <form class="burger_form_topping">Выберете топпинг:<br>
+                <label><input type="radio" name="cheese" id="big" value="TOPPINGS"> Сыр</label>
+                <label><input type="radio" name="bacon" id="big" value="TOPPINGS"> Бекон</label>
+                <label><input type="radio" name="salad" id="big" value="TOPPINGS"> Салатный лист</label>
+            </form>
+            <form class="burger_product_souce">Можно полить соусом:<br>
+                <label><input type="radio" name="Souces" id="big" value="SOUCES">Майонез</label>
+                <label><input type="radio" name="Souces" id="big" value="SOUCES">Кетчуп</label>
+                <label><input type="radio" name="Souces" id="big" value="SOUCES">Горчица</label>
+            </form>
+            <div>Итого калорий: <span class="burgers_calories"> </span>ккал</div>
+            <div>Итого цена: <span class="burgers_price"></span>$</div>
+        </div>
+       
+
+    </div>
+
+    <script src="burgers.js"></script>
+</body>
+</html>
