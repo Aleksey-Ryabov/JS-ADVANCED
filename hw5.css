@@ -1,0 +1,41 @@
+.goods-list img{
+    width: 500px;
+}
+
+.goods-list {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 1140px;
+}
+
+.good_item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.goods-search {
+    width: 400px;
+}
+
+.container{
+    margin: 0 auto;
+    width: 1140px;
+}
+
+.header_search {
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+
+*{
+ margin: 0;
+ padding: 0;
+}
+
+.header_search input {
+    margin-right: 20px;
+}
